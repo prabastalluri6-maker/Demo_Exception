@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="stylecard.css">
+
+</head>
+<body>
+
+<h2>Delivery Details</h2>
+
+<section class="checkout-page">
+  <form class="checkout-card" onsubmit="return checkout()">
+
+    <h2>Delivery Details</h2>
+
+    <div class="input-group">
+      <input type="text" placeholder="Full Name" required>
+    </div>
+
+    <div class="input-group">
+      <input type="text" placeholder="Address" required>
+    </div>
+
+    <div class="input-group">
+      <input type="tel" placeholder="Phone" required>
+    </div>
+
+    <button type="submit">Proceed to Payment</button>
+  </form>
+</section>
+
+<script>
+function checkout(){
+  alert("Payment gateway comes next");
+  return false;
+}
+</script>
+
+</body>
+</html>

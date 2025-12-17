@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+</head>
+<body>
+
+<h2>Payment</h2>
+<p>Razorpay Demo Checkout</p>
+
+<button onclick="pay()">Pay ₹ Now</button>
+
+<script>
+function pay() {
+  alert("Payment Successful (Demo)");
+  localStorage.removeItem("cart");
+  window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
